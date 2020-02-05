@@ -1,0 +1,94 @@
+body {
+  /*color: rgba(10, 10, 10, 0.8);*/
+  color: #222831;
+  text-align: center;
+  background-color: #f7fbfc;
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+/*  background-color: rgba(200, 200, 200, 0.4);*/
+  background-color: #f0f5f9;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+}
+
+#sub-heading {
+  padding-bottom: 20px;
+}
+
+h2, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+/*  background-color: rgba(110, 110, 110, 0.5);*/
+  background-color: #222831;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f7fbfc;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  width: 80px;
+  margin: 0px auto 20px auto;
+  border-color: #222831;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+.fab {
+  font-size: 50px;
+  color: #222831;
+  margin: 0px 20px 20px;
+}
+
+.fab:hover {
+  color: grey;
+}
+
+img {
+  max-width:150px;
+  height:auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100vw;
+  }
+  .card {
+    margin: 0;
+  }
+}
+/*}*/
+
